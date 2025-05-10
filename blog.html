@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="witdh=device-width, initial-scale=1.0">
+    <title>WinnersAcadameyKimana</title>
+    <link rel="stylesheet" href="style.css">
+    <!--   missing font stylesheetlink-->
+    <link rel="stylesheet" href="https://stackpath.bootsrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    missing fa link-->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+<!--blog-->
+<section class="blog-content">
+   <div class="row">
+       <div class="blog-left">
+           <img src="images/certificate.jpg">
+           <h2>Our Certificate & Online Programs For 2024</h2>
+           <P>Train with The Best Teachers, Learning Materials And Conducive Environment.</P>
+           <br>
+           <P>Train with The Best Teachers, Learning Materials And Conducive Environment.</P>
+           <br>
+           <P>Train with The Best Teachers, Learning Materials And Conducive Environment.</P>
+           <br>
+           <P>Train with The Best Teachers, Learning Materials And Conducive Environment.</P>
+           
+           <div class="comment-box">
+               <h3>Leave a Comment</h3>
+               <form class="comment-form">
+                   <input type="text" placeholder="Enter Name">
+                   <input type="email" placeholder="Enter Email">
+                   <textarea rows="5" placeholder="Your Comment"></textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+               </form>
+           </div>           
+       </div>
+       <div class="blog-right">
+           <h3>Post Categories</h3>
+           <div>
+               <span>Business Analytics</span>
+               <span>21</span>
+           </div>
+            <div>
+               <span>Music</span>
+               <span>21</span>
+           </div>
+            <div>
+               <span>Volly ball</span>
+               <span>21</span>
+           </div>
+            <div>
+               <span>Drama</span>
+               <span>21</span>
+           </div>
+            <div>
+               <span>Business Analytics</span>
+               <span>21</span>
+           </div>
+       </div>
+   </div>
+    
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Inspired By Society, Rotex wanted to give back to the people of Kimana;<br>Regardless of Tribe, Culture or Race.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-LinkedIn"></i>
+    </div>
+    <p>Copyright@2024<i class="fa fa-heart-o"></i></p>
+</section>
+
+
+
+
+
+
+
+
+<!--Javascript for toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+     function hideMenu(){
+        navLinks.style.right ="-200";
+    }
+    </script>
+
+</body>
+
+</html>
